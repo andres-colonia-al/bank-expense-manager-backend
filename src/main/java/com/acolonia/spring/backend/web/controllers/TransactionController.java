@@ -17,7 +17,7 @@ import java.util.Optional;
 @RestController
 @Slf4j
 @RequestMapping("/transaction")
-@CrossOrigin(origins = {"http://localhost:8081","http://192.168.1.100:8082"})
+@CrossOrigin(origins = "${app.cors.allowed-origins}")
 public class TransactionController {
 
     private final TransactionService transactionService;

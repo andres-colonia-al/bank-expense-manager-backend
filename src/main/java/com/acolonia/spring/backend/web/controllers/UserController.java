@@ -15,7 +15,7 @@ import java.util.Optional;
 @RestController
 @Slf4j
 @RequestMapping("/user")
-@CrossOrigin(origins = {"http://localhost:8081","http://192.168.1.100:8082"})
+@CrossOrigin(origins = "${app.cors.allowed-origins}")
 public class UserController {
 
     private final UserService userService;

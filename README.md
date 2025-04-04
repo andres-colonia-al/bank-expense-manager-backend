@@ -1,4 +1,4 @@
-# Proyecto de Gestión de Gastos Menores por Departamento
+# Proyecto Backend - Gestión de Gastos Menores para un Banco
 
 Este proyecto consiste en un backend desarrollado con Spring Boot y Hibernate, 
 que expone una API RESTful para la gestión de gastos menores por departamento en un banco. 
